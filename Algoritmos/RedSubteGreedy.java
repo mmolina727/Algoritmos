@@ -7,13 +7,11 @@ import java.util.List;
 public class RedSubteGreedy {
 
 	private Grafo grafo;
-	private int cantEstaciones;
 	private List<Tubo> solucion;
 	private int totalLargoTunel;
 	private int iteraciones;
 	public RedSubteGreedy(Grafo grafo) {
 		this.grafo = grafo;
-		this.cantEstaciones = grafo.cantidadVertices();
 		this.solucion = new ArrayList<>();
 		this.totalLargoTunel = -1;
 		this.iteraciones = 0;

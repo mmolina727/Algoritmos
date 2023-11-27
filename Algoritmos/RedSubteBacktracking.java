@@ -137,14 +137,4 @@ public class RedSubteBacktracking {
 		return this.iteraciones;
 	}
 
-	private ArrayList<String>obtenerVertices(){
-		ArrayList<String>vertice=new ArrayList<>();
-		Iterator<String>vertices=grafo.obtenerVertices();
-		while(vertices.hasNext()) {
-			vertice.add(vertices.next());
-		}
-		return vertice;
-	}
-
-
 }
